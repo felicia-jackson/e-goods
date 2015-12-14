@@ -45,15 +45,16 @@ body{
   padding:25px;
 }
 img {
-  max-width: 190px;
-  display:inline-block;
+  display:block;
   float:left;
   margin-right: 20px;
 }
 div.product {
   background-color: #513B56;
-  border: 2px solid black;
-  font-family:Indie Flower;
+  border: 1px solid black;
+  width:auto;
+  height:auto;
+  margin:25px;
 }
 h2 {
   color:#BCE784;
@@ -66,10 +67,32 @@ p {
   text-align:left;
   color:#BCE784;
   padding: 10px;
+  display:block;
 }
 .lightgreenText {
   color:#5DD39E;
+  font-size: 15px;
+  display:inline;
 }
 span {
-  font-size: 20px;
+  font-size: 15px;
+  text-align:center;
+  display:inline-block; 
+}
+div.product a {
+  background-color: #348AA7;
+  color: #BCE784;
+}
+
+#carrier {
+  max-width:60%;
+  height:190px;
+}
+#collar {
+  max-width:25%;
+  height:235px;
+}
+#crack {
+  max-width:60%;
+  height:200px;
 }
