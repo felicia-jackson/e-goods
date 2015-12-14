@@ -2,6 +2,7 @@ body{
   /* By default, the body has margins. We want to reset these so our elements can span the entire width of the page. */
   margin:auto;
   background-color: #BCE784;
+  font-family:Raleway;
 }
 #header{
   background:rgb(250,250,250);
@@ -51,7 +52,7 @@ img {
 }
 div.product {
   background-color: #513B56;
-  border: 1px solid black;
+  border: 2px solid black;
   width:auto;
   height:auto;
   margin:25px;
@@ -76,23 +77,39 @@ p {
 }
 span {
   font-size: 15px;
-  text-align:center;
-  display:inline-block; 
+  text-align:right;
+  display:inline; 
 }
 div.product a {
   background-color: #348AA7;
   color: #BCE784;
+  float: right;
 }
 
 #carrier {
   max-width:60%;
-  height:190px;
+  height:171px;
 }
 #collar {
   max-width:25%;
-  height:235px;
+  height:217px;
 }
 #crack {
   max-width:60%;
-  height:200px;
+  height:194px;
+}
+#sidebar {
+    position:absolute;
+    top:0; bottom:0; left:0;
+    width:50px;
+    background:#348AA7;
+    float:left;
+    color: #513B56;
+    font-size: 15px;
+}
+#topHeader {
+  height: 92px;
+  font-size: 20px;
+  text-align: center;
+  color: #513B56;
 }
